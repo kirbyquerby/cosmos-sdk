@@ -1,11 +1,11 @@
 package rootmulti_test
 
 import (
-	"crypto/sha256"
 	"encoding/binary"
 	"encoding/hex"
 	"errors"
 	"fmt"
+	"github.com/minio/sha256-simd"
 	"io"
 	"math/rand"
 	"testing"

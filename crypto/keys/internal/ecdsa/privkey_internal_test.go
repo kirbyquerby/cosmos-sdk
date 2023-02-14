@@ -3,9 +3,10 @@ package ecdsa
 import (
 	"crypto/ecdsa"
 	"crypto/elliptic"
-	"crypto/sha256"
 	"math/big"
 	"testing"
+
+	"github.com/minio/sha256-simd"
 
 	"github.com/cometbft/cometbft/crypto"
 	"github.com/stretchr/testify/suite"

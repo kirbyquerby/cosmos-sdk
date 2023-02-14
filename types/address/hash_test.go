@@ -1,8 +1,9 @@
 package address
 
 import (
-	"crypto/sha256"
 	"testing"
+
+	"github.com/minio/sha256-simd"
 
 	"github.com/cometbft/cometbft/crypto/tmhash"
 	"github.com/stretchr/testify/assert"

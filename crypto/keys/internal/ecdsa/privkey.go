@@ -4,9 +4,10 @@ import (
 	"crypto/ecdsa"
 	"crypto/elliptic"
 	"crypto/rand"
-	"crypto/sha256"
 	"fmt"
 	"math/big"
+
+	"github.com/minio/sha256-simd"
 )
 
 // p256Order returns the curve order for the secp256r1 curve

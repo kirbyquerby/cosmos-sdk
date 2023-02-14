@@ -2,8 +2,9 @@ package bech32_test
 
 import (
 	"bytes"
-	"crypto/sha256"
 	"testing"
+
+	"github.com/minio/sha256-simd"
 
 	"github.com/stretchr/testify/require"
 

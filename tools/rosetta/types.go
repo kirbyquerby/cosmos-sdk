@@ -1,7 +1,7 @@
 package rosetta
 
 import (
-	"crypto/sha256"
+	"github.com/minio/sha256-simd"
 )
 
 // statuses

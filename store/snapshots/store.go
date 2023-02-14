@@ -1,7 +1,6 @@
 package snapshots
 
 import (
-	"crypto/sha256"
 	"encoding/binary"
 	"io"
 	"math"
@@ -9,6 +8,8 @@ import (
 	"path/filepath"
 	"strconv"
 	"sync"
+
+	"github.com/minio/sha256-simd"
 
 	"cosmossdk.io/errors"
 	db "github.com/cosmos/cosmos-db"

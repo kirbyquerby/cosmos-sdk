@@ -2,13 +2,14 @@ package snapshots
 
 import (
 	"bytes"
-	"crypto/sha256"
 	"errors"
 	"fmt"
 	"io"
 	"math"
 	"sort"
 	"sync"
+
+	"github.com/minio/sha256-simd"
 
 	sdkerrors "cosmossdk.io/errors"
 	"cosmossdk.io/log"

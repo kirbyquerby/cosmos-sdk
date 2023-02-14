@@ -2,11 +2,12 @@ package secp256k1
 
 import (
 	"bytes"
-	"crypto/sha256"
 	"crypto/subtle"
 	"fmt"
 	"io"
 	"math/big"
+
+	"github.com/minio/sha256-simd"
 
 	"github.com/cometbft/cometbft/crypto"
 	secp256k1 "github.com/decred/dcrd/dcrec/secp256k1/v4"

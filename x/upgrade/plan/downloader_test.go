@@ -2,8 +2,8 @@ package plan
 
 import (
 	"archive/zip"
-	"crypto/sha256"
 	"fmt"
+	"github.com/minio/sha256-simd"
 	"io"
 	"os"
 	"path/filepath"

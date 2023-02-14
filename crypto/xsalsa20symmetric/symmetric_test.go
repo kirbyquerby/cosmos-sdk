@@ -1,8 +1,9 @@
 package xsalsa20symmetric
 
 import (
-	"crypto/sha256"
 	"testing"
+
+	"github.com/minio/sha256-simd"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

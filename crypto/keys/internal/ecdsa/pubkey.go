@@ -3,9 +3,10 @@ package ecdsa
 import (
 	"crypto/ecdsa"
 	"crypto/elliptic"
-	"crypto/sha256"
 	"fmt"
 	"math/big"
+
+	"github.com/minio/sha256-simd"
 
 	cmtcrypto "github.com/cometbft/cometbft/crypto"
 

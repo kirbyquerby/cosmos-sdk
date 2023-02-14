@@ -2,9 +2,10 @@ package address
 
 import (
 	"bytes"
-	"crypto/sha256"
 	"fmt"
 	"sort"
+
+	"github.com/minio/sha256-simd"
 
 	"github.com/cometbft/cometbft/crypto"
 

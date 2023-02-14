@@ -2,10 +2,11 @@ package service
 
 import (
 	"context"
-	"crypto/sha256"
 	"encoding/hex"
 	"strconv"
 	"strings"
+
+	"github.com/minio/sha256-simd"
 
 	sdkmath "cosmossdk.io/math"
 	"cosmossdk.io/tools/rosetta/lib/errors"

@@ -2,8 +2,9 @@ package keys
 
 import (
 	"bufio"
-	"crypto/sha256"
 	"fmt"
+
+	"github.com/minio/sha256-simd"
 
 	"github.com/cosmos/go-bip39"
 	"github.com/spf13/cobra"

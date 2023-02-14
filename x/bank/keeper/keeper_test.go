@@ -1,11 +1,12 @@
 package keeper_test
 
 import (
-	"crypto/sha256"
 	"fmt"
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/minio/sha256-simd"
 
 	"cosmossdk.io/math"
 	abci "github.com/cometbft/cometbft/abci/types"

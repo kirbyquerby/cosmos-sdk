@@ -3,10 +3,11 @@ package textual
 import (
 	"bytes"
 	"context"
-	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
 	"strings"
+
+	"github.com/minio/sha256-simd"
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 )

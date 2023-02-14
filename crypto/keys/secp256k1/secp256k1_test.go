@@ -39,7 +39,7 @@ implementation of secp256k1 against go-ethereum's one. It has been commented to 
 
 	import (
 		"crypto/ecdsa"
-		"crypto/sha256"
+		"github.com/minio/sha256-simd"
 		"encoding/hex"
 		"fmt"
 		"github.com/btcsuite/btcutil/base58"
